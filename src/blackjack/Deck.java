@@ -10,5 +10,27 @@ package blackjack;
  * @author gubotdev
  */
 public class Deck {
+    private Card[] mycards = new Card[52];
+    private String[] ranks = {};
+    private String[] suits = {};
+    private int nextCard = 0;
     
+    
+    
+    
+    
+    private void intiDeck(){
+        
+    }
+    private void shuffle(){
+        
+    }
+    //printDeck is for testing only --delete me
+    public void printDeck(){
+        
+    }
+    public Card dealCard(){
+        return null; //donot forget to change this!!
+    }
 }
+
